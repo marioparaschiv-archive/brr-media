@@ -1,0 +1,39 @@
+.theme-dark {
+   --scrolbar-colour: rgba(255, 255, 255, 0.5);
+}
+
+.theme-light {
+   --scrolbar-colour: rgba(0, 0, 0, 0.5);
+}
+
+.app-mount {
+   box-sizing: border-box;
+   justify-content: center;
+   position: relative;
+   align-items: center;
+   overflow: hidden;
+   flex-wrap: wrap;
+   margin: 0 auto;
+   max-width: 1200px;
+   padding: 2rem;
+}
+
+.header {
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.theme-changer {
+   margin-left: auto !important;
+}
+
+::-webkit-scrollbar {
+   width: 10px;
+   height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+   border-radius: 10px;
+   background-color: var(--scrolbar-colour);
+}

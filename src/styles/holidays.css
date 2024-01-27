@@ -1,0 +1,79 @@
+.holiday-summary > div {
+   display: flex;
+   align-items: center;
+}
+
+.holiday-collection {
+   margin-bottom: 20px;
+}
+
+.holiday-type {
+   margin-right: 10px;
+}
+
+.holiday-expand-icon {
+   margin-left: 10px;
+}
+
+.holiday-info-text {
+   margin-right: 10px;
+}
+
+.we-failed {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 10px;
+   margin-top: 100px;
+   text-align: center;
+}
+
+.holiday-counties {
+   gap: .3rem;
+   display: flex;
+}
+
+.holidays-filtering {
+   margin-bottom: 20px;
+}
+
+.holidays-more-icon {
+   margin-left: auto !important;
+   width: 48px;
+}
+
+.holiday-search-container {
+   display: flex !important;
+   justify-content: center !important;
+}
+
+.holiday-search {
+   width: 20rem;
+}
+
+.holidays-not-found {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   margin-top: 25vh;
+}
+
+.holidays-not-found-icon {
+   width: 10rem !important;
+   height: 10rem !important;
+}
+
+.holidays-more-icon > button {
+   width: 48px;
+}
+
+.holidays-extra-sorting {
+   display: flex;
+   gap: .3rem;
+   padding: 10px 0
+}
+
+.holiday-sort-breadcrumb[data-checked='false'] {
+   opacity: 0.5;
+}
